@@ -1,152 +1,172 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>#argentina @ Libera stats by boton</title>
 <style type="text/css" title="default">
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 a:link {
-    color: #0b407a;
+	color: #0b407a;
 }
 a:visited {
-    color: #0b407a;
+	color: #0b407a;
 }
-
 a:hover {
-    text-decoration: underline;
-    color: #0b407a;
+	text-decoration: underline;
+	color: #0b407a;
 }
-
 a.background {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 a.background:link {
-    color: #0b407a;
+	color: #0b407a;
 }
-
 a.background:visited {
-    color: #0b407a;
+	color: #0b407a;
 }
-
 a.background:hover {
-    text-decoration: underline;
-    color: #0b407a;
+	text-decoration: underline;
+	color: #0b407a;
 }
 
 body {
-    background-color: #dedeee;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 13px;
-    color: black;
+	background-color: #dedeee;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+	color: black;
 }
+
+#green-h {
+	height: 15px;
+	background-repeat: repeat-x;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8AgMAAADanzhpAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAFElEQVQI12NoYMAHHfBC/OAAPggA1jQWgUt+qs4AAAAASUVORK5CYII=) 0px 0px; }
+#red-h {
+	height: 15px;
+	background-repeat: repeat-x;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8AgMAAADanzhpAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAFElEQVQI12NoYMAHHfBC/OAAPggA1jQWgUt+qs4AAAAASUVORK5CYII=) 0px -15px; }
+#yellow-h {
+	height: 15px;
+	background-repeat: repeat-x;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8AgMAAADanzhpAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAFElEQVQI12NoYMAHHfBC/OAAPggA1jQWgUt+qs4AAAAASUVORK5CYII=) 0px -30px; }
+#blue-h {
+	height: 15px;
+	background-repeat: repeat-x;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8AgMAAADanzhpAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAFElEQVQI12NoYMAHHfBC/OAAPggA1jQWgUt+qs4AAAAASUVORK5CYII=) 0px -45px; }
+
+#green-v {
+	width: 15px;
+	background-repeat: repeat-y;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAABAgMAAAD/diWSAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAGUlEQVQI12NYtWrVytDQ0AAGBgb7////AwA3TAczYjzlogAAAABJRU5ErkJggg==) 0px 0px; }
+#red-v {
+	width: 15px;
+	background-repeat: repeat-y;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAABAgMAAAD/diWSAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAGUlEQVQI12NYtWrVytDQ0AAGBgb7////AwA3TAczYjzlogAAAABJRU5ErkJggg==) -15px 0px; }
+#yellow-v {
+	width: 15px;
+	background-repeat: repeat-y;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAABAgMAAAD/diWSAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAGUlEQVQI12NYtWrVytDQ0AAGBgb7////AwA3TAczYjzlogAAAABJRU5ErkJggg==) -30px 0px; }
+#blue-v {
+	width: 15px;
+	background-repeat: repeat-y;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAABAgMAAAD/diWSAAAADFBMVEXMzDPMMzNmzDMzZv+sVPgxAAAAGUlEQVQI12NYtWrVytDQ0AAGBgb7////AwA3TAczYjzlogAAAABJRU5ErkJggg==) -45px 0px; }
+
 
 td {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 13px;
-    color: black;
-    text-align: left;
+	border-radius: 5px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+	color: black;
+	text-align: left;
 }
-
 .male, .male a {
-    color: #0000DD;
+	color: #0000DD;
 }
-
 .female, .female a {
-    color: #DD3366;
+	color: #DD3366;
 }
-
 .bot, .bot a {
-    color: #00FFFF;
+	color: #00FFFF;
 }
-
 .title {
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 }
-
 .headtext {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    background-color: #666699;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: #666699;
 }
-
 .headlinebg {
-    background-color: #000000;
+	border-radius: 8px;
+	background-color: #000000;
 }
-
 .tdtop {
-    background-color: #C8C8DD;
+	background-color: #C8C8DD;
 }
-
 .hicell {
-    background-color: #BABADD;
+	background-color: #BABADD;
 }
-
 .hicell10 {
-    background-color: #BABADD;
-    font-size: 10px;
+	background-color: #BABADD;
+	font-size: 10px;
 }
-
 .rankc {
-    background-color: #CCCCCC;
+	background-color: #CCCCCC;
 }
-
 .hirankc {
-    background-color: #AAAAAA;
-    font-weight: bold;
+	background-color: #AAAAAA;
+	font-weight: bold;
 }
-
 .rankc10 {
-    background-color: #CCCCCC;
-    font-size: 10px;
+	background-color: #CCCCCC;
+	font-size: 10px;
 }
-
 .rankc10center {
-    background-color: #CCCCCC;
-    font-size: 10px;
-    text-align: center;
+	background-color: #CCCCCC;
+	font-size: 10px;
+	text-align: center;
 }
-
 .hirankc10center {
-    background-color: #AAAAAA;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
+	background-color: #AAAAAA;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
 }
-
 .small {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
 }
-
-
 .asmall {
-      font-family: "Arial narrow", Arial, sans-serif;
-      font-size: 10px;
-      color: black;
-      text-align: center;
+	font-family: "Arial narrow", Arial, sans-serif;
+	font-size: 10px;
+	color: black;
+	text-align: center;
+}
+#footer {
+	width: 400px;
+	height: 32px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUQ4RDBBQTM0NUJGMTFFMUI3NDhCM0QxMjJGN0E4ODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUQ4RDBBQTQ0NUJGMTFFMUI3NDhCM0QxMjJGN0E4ODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1RDhEMEFBMTQ1QkYxMUUxQjc0OEIzRDEyMkY3QTg4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1RDhEMEFBMjQ1QkYxMUUxQjc0OEIzRDEyMkY3QTg4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pjybjz0AAAD5UExURf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+vUK5QAAABSdFJOUwADBgkMDxIVGBseISQnKi0wMzY5PD9CRUhLTldaXWNmaWxvcnV4e36BhIeKjZCTlpmcn6KlqKuusbS3ur3Aw8bJzM/S1djb3uHk5+rt8PP2+fysKi1CAAACG0lEQVQ4y21T3XqaUBBcU41ttEFQqklqBCGK1BoSS/yJaA4nIigizPs/TC9ERb/M5c7Onj27s0QniIbNPI/ZhkhfIG8E4Fa31epaHIGRv+SVcK1JLYu5LrNakr4OlXP5NOrIMxzx/qsTTTJFStyVRjiDLXH+48AXuCN5uIBXmfO0Rm7s1bYX9GaGUOTjfYK+rV3qnZIwx1KMFCKiYqS8HYglA4DZuvjx3ABsNcgTkbmqHZXKHMC/+7cmPkQA9VWH6CpUnbPyTNz1TfAbAO9qkKNGUs383wCqLv52EecBJOWkRuZCO4mtO3yKtqWXNh75AH4vDJoObMACEGvXAt0ifrEmj0KxdusAGA7G5LUZIOyG7PEhRJt8MOBhDvSeASzaLq2b/rArN/tOOQa6Qh+qq5kA3lUAy6ZPm6Yf1UnQ7zUHuOc3fn3IAMCX0wSvzV4r7R4b6wIiGYPidN9wXE6fmA5sL9mqQHK9NoeZeZTSJs2FAuBlB+htOT7xgQiguejRXVJJQ7OrZaZA/086qG+hmlopuc0sNZ4cRk3mSk6Dg97F1hurDhF9P67bF875NyXIExE9HQ3zk5+bbm8Yyk0OllPMDL+V+DiXmvbTqXoAwGpZvcMLR9svmTgCgHJ0tL3o8lL2cLa6PAcO/Ex+iqZn15dTw0CT1FfmuuxVlbR1qOYujrNgBGBWp9XqWAyBUfjqwKu9EfN9NupVM8H/S2rN5VNeTiwAAAAASUVORK5CYII=') no-repeat 0 50%;
 }
 </style>
 </head>
 <body>
 <div align="center">
 
-<span class="title">#argentina @ Libera stats by boton</span><br />
-<br />
-Statistics generated on  Tuesday 16 August 2022 - 22:00:03
-<br />During this 11-day reporting period, a total of <b>12</b> different nicks were represented on #argentina.<br /><br />
+<h1 class="title" id="pagetitle1">#argentina @ Libera stats by boton</h1>
+<p class="subtitle"><span id="pagetitle2">Statistics generated on  Tuesday 16 August 2022 - 22:46:05</span><br />
+<span id="pagetitle3">During this 3-day reporting period, a total of <b>9</b> different nicks were represented on #argentina.</span></p>
    <br />
    <table width="1030" cellpadding="1" cellspacing="0" border="0">
     <tr>
      <td class="headlinebg">
       <table width="100%" cellpadding="2" cellspacing="0" border="0">
        <tr>
-        <td class="headtext">Daily activity (last 11 days)</td>
+        <td class="headtext">Daily activity (last 3 days)</td>
        </tr>
       </table>
      </td>
@@ -154,71 +174,36 @@ Statistics generated on  Tuesday 16 August 2022 - 22:00:03
    </table>
 
 <table border="0"><tr>
-<td align="center" valign="bottom" class="asmall">29<br />
-<img src="./red-v.png" width="15" height="2" alt="2" title="2" /><br />
+<td align="center" valign="bottom" class="asmall">14<br />
+<img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="1" alt="1" title="1" /><br />
 </td>
-<td align="center" valign="bottom" class="asmall">64<br />
-<img src="./red-v.png" width="15" height="3" alt="3" title="3" /><br />
-<img src="./yellow-v.png" width="15" height="1" alt="1" title="1" /><br />
+<td align="center" valign="bottom" class="asmall">26<br />
+<img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="2" alt="2" title="2" /><br />
 </td>
-<td align="center" valign="bottom" class="asmall">64<br />
-<img src="./yellow-v.png" width="15" height="2" alt="2" title="2" /><br />
-<img src="./green-v.png" width="15" height="3" alt="3" title="3" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">77<br />
-<img src="./red-v.png" width="15" height="1" alt="1" title="1" /><br />
-<img src="./yellow-v.png" width="15" height="2" alt="2" title="2" /><br />
-<img src="./green-v.png" width="15" height="3" alt="3" title="3" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">45<br />
-<img src="./red-v.png" width="15" height="2" alt="2" title="2" /><br />
-<img src="./green-v.png" width="15" height="1" alt="1" title="1" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">44<br />
-<img src="./red-v.png" width="15" height="1" alt="1" title="1" /><br />
-<img src="./green-v.png" width="15" height="1" alt="1" title="1" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">40<br />
-<img src="./green-v.png" width="15" height="2" alt="2" title="2" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">375<br />
-<img src="./red-v.png" width="15" height="1" alt="1" title="1" /><br />
-<img src="./yellow-v.png" width="15" height="29" alt="29" title="29" /><br />
-<img src="./green-v.png" width="15" height="5" alt="5" title="5" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">169<br />
-<img src="./red-v.png" width="15" height="3" alt="3" title="3" /><br />
-<img src="./yellow-v.png" width="15" height="8" alt="8" title="8" /><br />
-<img src="./green-v.png" width="15" height="4" alt="4" title="4" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">139<br />
-<img src="./red-v.png" width="15" height="2" alt="2" title="2" /><br />
-<img src="./yellow-v.png" width="15" height="7" alt="7" title="7" /><br />
-<img src="./blue-v.png" width="15" height="2" alt="2" title="2" /><br />
-</td>
-<td align="center" valign="bottom" class="asmall">1018<br />
-<img src="./red-v.png" width="15" height="28" alt="28" title="28" /><br />
-<img src="./yellow-v.png" width="15" height="67" alt="67" title="67" /><br />
-<img src="./green-v.png" width="15" height="3" alt="3" title="3" /><br />
+<td align="center" valign="bottom" class="asmall">1022<br />
+<img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="28" alt="28" title="28" /><br />
+<img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="67" alt="67" title="67" /><br />
+<img id="green-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="4" alt="4" title="4" /><br />
 </td>
 </tr><tr>
-<td class="rankc10center" align="center">10</td>
-<td class="rankc10center" align="center">9</td>
-<td class="rankc10center" align="center">8</td>
-<td class="rankc10center" align="center">7</td>
-<td class="rankc10center" align="center">6</td>
-<td class="rankc10center" align="center">5</td>
-<td class="rankc10center" align="center">4</td>
-<td class="rankc10center" align="center">3</td>
 <td class="rankc10center" align="center">2</td>
 <td class="rankc10center" align="center">1</td>
 <td class="rankc10center" align="center">0</td>
 </tr></table>
 <table align="center" border="0" width="520"><tr>
-<td align="center" class="asmall"><img src="./blue-h.png" width="40" height="15" align="middle" alt="0-5" /> = 0-5</td>
-<td align="center" class="asmall"><img src="./green-h.png" width="40" height="15" align="middle" alt="6-11" /> = 6-11</td>
-<td align="center" class="asmall"><img src="./yellow-h.png" width="40" height="15" align="middle" alt="12-17" /> = 12-17</td>
-<td align="center" class="asmall"><img src="./red-h.png" width="40" height="15" align="middle" alt="18-23" /> = 18-23</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="blue-h" width="40" height="15" align="middle" alt="0-5" /> = 0-5</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" width="40" height="15" align="middle" alt="6-11" /> = 6-11</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" width="40" height="15" align="middle" alt="12-17" /> = 12-17</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" width="40" height="15" align="middle" alt="18-23" /> = 18-23</td>
 </tr></table>
    <br />
    <table width="1030" cellpadding="1" cellspacing="0" border="0">
@@ -234,30 +219,44 @@ Statistics generated on  Tuesday 16 August 2022 - 22:00:03
    </table>
 
 <table border="0"><tr>
-<td align="center" valign="bottom" class="asmall">0.8%<br /><img src="./blue-v.png" width="15" height="3" alt="16" title="16"/></td>
-<td align="center" valign="bottom" class="asmall">0.4%<br /><img src="./blue-v.png" width="15" height="2" alt="9" title="9"/></td>
-<td align="center" valign="bottom" class="asmall">0.3%<br /><img src="./blue-v.png" width="15" height="1" alt="6" title="6"/></td>
-<td align="center" valign="bottom" class="asmall">1.1%<br /><img src="./blue-v.png" width="15" height="5" alt="22" title="22"/></td>
 <td align="center" valign="bottom" class="asmall">0%</td>
 <td align="center" valign="bottom" class="asmall">0%</td>
 <td align="center" valign="bottom" class="asmall">0%</td>
 <td align="center" valign="bottom" class="asmall">0%</td>
-<td align="center" valign="bottom" class="asmall">1.1%<br /><img src="./green-v.png" width="15" height="5" alt="22" title="22"/></td>
-<td align="center" valign="bottom" class="asmall">3.1%<br /><img src="./green-v.png" width="15" height="15" alt="64" title="64"/></td>
-<td align="center" valign="bottom" class="asmall">2.9%<br /><img src="./green-v.png" width="15" height="14" alt="60" title="60"/></td>
-<td align="center" valign="bottom" class="asmall">6.0%<br /><img src="./green-v.png" width="15" height="30" alt="124" title="124"/></td>
-<td align="center" valign="bottom" class="asmall">15.1%<br /><img src="./yellow-v.png" width="15" height="76" alt="312" title="312"/></td>
-<td align="center" valign="bottom" class="asmall">19.8%<br /><img src="./yellow-v.png" width="15" height="100" alt="409" title="409"/></td>
-<td align="center" valign="bottom" class="asmall">10.5%<br /><img src="./yellow-v.png" width="15" height="53" alt="217" title="217"/></td>
-<td align="center" valign="bottom" class="asmall">4.8%<br /><img src="./yellow-v.png" width="15" height="24" alt="99" title="99"/></td>
-<td align="center" valign="bottom" class="asmall">4.9%<br /><img src="./yellow-v.png" width="15" height="24" alt="102" title="102"/></td>
-<td align="center" valign="bottom" class="asmall">4.4%<br /><img src="./yellow-v.png" width="15" height="22" alt="92" title="92"/></td>
-<td align="center" valign="bottom" class="asmall">13.5%<br /><img src="./red-v.png" width="15" height="68" alt="280" title="280"/></td>
-<td align="center" valign="bottom" class="asmall">1.9%<br /><img src="./red-v.png" width="15" height="9" alt="40" title="40"/></td>
-<td align="center" valign="bottom" class="asmall">2.9%<br /><img src="./red-v.png" width="15" height="14" alt="60" title="60"/></td>
-<td align="center" valign="bottom" class="asmall">2.0%<br /><img src="./red-v.png" width="15" height="10" alt="41" title="41"/></td>
-<td align="center" valign="bottom" class="asmall">2.1%<br /><img src="./red-v.png" width="15" height="10" alt="43" title="43"/></td>
-<td align="center" valign="bottom" class="asmall">1.7%<br /><img src="./red-v.png" width="15" height="8" alt="36" title="36"/></td>
+<td align="center" valign="bottom" class="asmall">0%</td>
+<td align="center" valign="bottom" class="asmall">0%</td>
+<td align="center" valign="bottom" class="asmall">0%</td>
+<td align="center" valign="bottom" class="asmall">0%</td>
+<td align="center" valign="bottom" class="asmall">0.3%<br /><img id="green-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="1" alt="3" title="3"/></td>
+<td align="center" valign="bottom" class="asmall">0%</td>
+<td align="center" valign="bottom" class="asmall">1.6%<br /><img id="green-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="5" alt="17" title="17"/></td>
+<td align="center" valign="bottom" class="asmall">1.8%<br /><img id="green-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="6" alt="19" title="19"/></td>
+<td align="center" valign="bottom" class="asmall">6.0%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="21" alt="64" title="64"/></td>
+<td align="center" valign="bottom" class="asmall">27.4%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="100" alt="291" title="291"/></td>
+<td align="center" valign="bottom" class="asmall">18.3%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="66" alt="194" title="194"/></td>
+<td align="center" valign="bottom" class="asmall">1.9%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="6" alt="20" title="20"/></td>
+<td align="center" valign="bottom" class="asmall">5.0%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="18" alt="53" title="53"/></td>
+<td align="center" valign="bottom" class="asmall">5.9%<br /><img id="yellow-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="21" alt="63" title="63"/></td>
+<td align="center" valign="bottom" class="asmall">24.2%<br /><img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="88" alt="257" title="257"/></td>
+<td align="center" valign="bottom" class="asmall">2.5%<br /><img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="9" alt="27" title="27"/></td>
+<td align="center" valign="bottom" class="asmall">2.2%<br /><img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="7" alt="23" title="23"/></td>
+<td align="center" valign="bottom" class="asmall">1.0%<br /><img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="3" alt="11" title="11"/></td>
+<td align="center" valign="bottom" class="asmall">1.3%<br /><img id="red-v" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" width="15" height="4" alt="14" title="14"/></td>
+<td align="center" valign="bottom" class="asmall">0%</td>
 </tr><tr>
 <td class="rankc10center" align="center">0</td>
 <td class="rankc10center" align="center">1</td>
@@ -285,10 +284,14 @@ Statistics generated on  Tuesday 16 August 2022 - 22:00:03
 <td class="rankc10center" align="center">23</td>
 </tr></table>
 <table align="center" border="0" width="520"><tr>
-<td align="center" class="asmall"><img src="./blue-h.png" width="40" height="15" align="middle" alt="0-5" /> = 0-5</td>
-<td align="center" class="asmall"><img src="./green-h.png" width="40" height="15" align="middle" alt="6-11" /> = 6-11</td>
-<td align="center" class="asmall"><img src="./yellow-h.png" width="40" height="15" align="middle" alt="12-17" /> = 12-17</td>
-<td align="center" class="asmall"><img src="./red-h.png" width="40" height="15" align="middle" alt="18-23" /> = 18-23</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="blue-h" width="40" height="15" align="middle" alt="0-5" /> = 0-5</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" width="40" height="15" align="middle" alt="6-11" /> = 6-11</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" width="40" height="15" align="middle" alt="12-17" /> = 12-17</td>
+<td align="center" class="asmall"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" width="40" height="15" align="middle" alt="18-23" /> = 18-23</td>
 </tr></table>
    <br />
    <table width="1030" cellpadding="1" cellspacing="0" border="0">
@@ -307,40 +310,81 @@ Statistics generated on  Tuesday 16 August 2022 - 22:00:03
 
 </tr>
 <tr><td class="hirankc" align="left">1</td>
-<td style="background-color: #bbbbdb"><span>CEP</span></td><td style="background-color: #bbbbdb" nowrap="nowrap"><img src="./blue-h.png" border="0" width="2" height="15" align="middle" alt="15" title="15" /><img src="./yellow-h.png" border="0" width="76" height="15" align="middle" alt="454" title="454" /><img src="./red-h.png" border="0" width="21" height="15" align="middle" alt="126" title="126" />&nbsp;595</td><td style="background-color: #bbbbdb"><img src="./blue-h.png" border="0" width="1" height="15" alt="15" title="15" /><img src="./yellow-h.png" border="0" width="30" height="15" alt="454" title="454" /><img src="./red-h.png" border="0" width="8" height="15" alt="126" title="126" /></td><td style="background-color: #bbbbdb" nowrap="nowrap"><img src="./blue-h.png" border="0" width="3" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="79" height="15" align="middle" alt="" /><img src="./red-h.png" border="0" width="17" height="15" align="middle" alt="" />&nbsp;4260</td><td style="background-color: #bbbbdb">7.2</td><td style="background-color: #bbbbdb">37.5</td><td style="background-color: #bbbbdb">today</td><td style="background-color: #bbbbdb">"locobro mas barato"</td>
+<td style="background-color: #bcbcdb"><span>CEP</span></td><td style="background-color: #bcbcdb" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="76" height="15" align="middle" alt="350" title="350" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="23" height="15" align="middle" alt="109" title="109" />&nbsp;459</td><td style="background-color: #bcbcdb"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="30" height="15" alt="350" title="350" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="9" height="15" alt="109" title="109" /></td><td style="background-color: #bcbcdb" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="81" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="18" height="15" align="middle" alt="" />&nbsp;3244</td><td style="background-color: #bcbcdb">7.1</td><td style="background-color: #bcbcdb">37.2</td><td style="background-color: #bcbcdb">today</td><td style="background-color: #bcbcdb">"locobro mas barato"</td>
 </tr>
 <tr><td class="rankc" align="left">2</td>
-<td style="background-color: #bdbdd9"><span>qadlo</span></td><td style="background-color: #bdbdd9" nowrap="nowrap"><img src="./green-h.png" border="0" width="11" height="15" align="middle" alt="70" title="70" /><img src="./yellow-h.png" border="0" width="48" height="15" align="middle" alt="286" title="286" /><img src="./red-h.png" border="0" width="25" height="15" align="middle" alt="150" title="150" />&nbsp;509</td><td style="background-color: #bdbdd9"><img src="./green-h.png" border="0" width="5" height="15" alt="70" title="70" /><img src="./yellow-h.png" border="0" width="22" height="15" alt="286" title="286" /><img src="./red-h.png" border="0" width="11" height="15" alt="150" title="150" /></td><td style="background-color: #bdbdd9" nowrap="nowrap"><img src="./green-h.png" border="0" width="6" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="42" height="15" align="middle" alt="" /><img src="./red-h.png" border="0" width="18" height="15" align="middle" alt="" />&nbsp;2882</td><td style="background-color: #bdbdd9">5.7</td><td style="background-color: #bdbdd9">30.3</td><td style="background-color: #bdbdd9">today</td><td style="background-color: #bdbdd9">"Uy, qué bien que estuve"</td>
+<td style="background-color: #bebed9"><span>qadlo</span></td><td style="background-color: #bebed9" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="3" height="15" align="middle" alt="14" title="14" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="25" height="15" align="middle" alt="118" title="118" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="19" height="15" align="middle" alt="90" title="90" />&nbsp;222</td><td style="background-color: #bebed9"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="2" height="15" alt="14" title="14" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="21" height="15" alt="118" title="118" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="16" height="15" alt="90" title="90" /></td><td style="background-color: #bebed9" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="2" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="23" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="14" height="15" align="middle" alt="" />&nbsp;1318</td><td style="background-color: #bebed9">5.9</td><td style="background-color: #bebed9">31.7</td><td style="background-color: #bebed9">today</td><td style="background-color: #bebed9">"Como cierto fiscal"</td>
 </tr>
 <tr><td class="rankc" align="left">3</td>
-<td style="background-color: #bfbfd7"><span>[Kalisto]</span></td><td style="background-color: #bfbfd7" nowrap="nowrap"><img src="./green-h.png" border="0" width="8" height="15" align="middle" alt="51" title="51" /><img src="./yellow-h.png" border="0" width="28" height="15" align="middle" alt="168" title="168" /><img src="./red-h.png" border="0" width="15" height="15" align="middle" alt="94" title="94" />&nbsp;314</td><td style="background-color: #bfbfd7"><img src="./green-h.png" border="0" width="6" height="15" alt="51" title="51" /><img src="./yellow-h.png" border="0" width="21" height="15" alt="168" title="168" /><img src="./red-h.png" border="0" width="11" height="15" alt="94" title="94" /></td><td style="background-color: #bfbfd7" nowrap="nowrap"><img src="./green-h.png" border="0" width="5" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="26" height="15" align="middle" alt="" /><img src="./red-h.png" border="0" width="11" height="15" align="middle" alt="" />&nbsp;1844</td><td style="background-color: #bfbfd7">5.9</td><td style="background-color: #bfbfd7">30.1</td><td style="background-color: #bfbfd7">today</td><td style="background-color: #bfbfd7">"no se si te estas autoparodiando o no a esta altura"</td>
+<td style="background-color: #c0c0d7"><span>[Kalisto]</span></td><td style="background-color: #c0c0d7" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="5" title="5" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="28" height="15" align="middle" alt="130" title="130" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="14" height="15" align="middle" alt="68" title="68" />&nbsp;203</td><td style="background-color: #c0c0d7"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="25" height="15" alt="130" title="130" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="13" height="15" alt="68" title="68" /></td><td style="background-color: #c0c0d7" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="29" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="11" height="15" align="middle" alt="" />&nbsp;1358</td><td style="background-color: #c0c0d7">6.7</td><td style="background-color: #c0c0d7">34.5</td><td style="background-color: #c0c0d7">today</td><td style="background-color: #c0c0d7">"no se si te estas autoparodiando o no a esta altura"</td>
 </tr>
 <tr><td class="rankc" align="left">4</td>
-<td style="background-color: #c1c1d6"><span>ssf</span></td><td style="background-color: #c1c1d6" nowrap="nowrap"><img src="./yellow-h.png" border="0" width="24" height="15" align="middle" alt="144" title="144" />&nbsp;149</td><td style="background-color: #c1c1d6"><img src="./green-h.png" border="0" width="1" height="15" alt="5" title="5" /><img src="./yellow-h.png" border="0" width="38" height="15" alt="144" title="144" /></td><td style="background-color: #c1c1d6" nowrap="nowrap"><img src="./yellow-h.png" border="0" width="19" height="15" align="middle" alt="" />&nbsp;834</td><td style="background-color: #c1c1d6">5.6</td><td style="background-color: #c1c1d6">30.6</td><td style="background-color: #c1c1d6">today</td><td style="background-color: #c1c1d6">"qué es Psiphon?"</td>
+<td style="background-color: #c2c2d5"><span>fold</span></td><td style="background-color: #c2c2d5" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="8" title="8" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="4" height="15" align="middle" alt="20" title="20" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="8" height="15" align="middle" alt="39" title="39" />&nbsp;67</td><td style="background-color: #c2c2d5"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="4" height="15" alt="8" title="8" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="11" height="15" alt="20" title="20" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="23" height="15" alt="39" title="39" /></td><td style="background-color: #c2c2d5" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="3" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="6" height="15" align="middle" alt="" />&nbsp;361</td><td style="background-color: #c2c2d5">5.4</td><td style="background-color: #c2c2d5">29.1</td><td style="background-color: #c2c2d5">today</td><td style="background-color: #c2c2d5">"ocho petecos"</td>
 </tr>
 <tr><td class="rankc" align="left">5</td>
-<td style="background-color: #c3c3d4"><span>fold</span></td><td style="background-color: #c3c3d4" nowrap="nowrap"><img src="./green-h.png" border="0" width="2" height="15" align="middle" alt="14" title="14" /><img src="./yellow-h.png" border="0" width="5" height="15" align="middle" alt="32" title="32" /><img src="./red-h.png" border="0" width="10" height="15" align="middle" alt="62" title="62" />&nbsp;113</td><td style="background-color: #c3c3d4"><img src="./blue-h.png" border="0" width="1" height="15" alt="5" title="5" /><img src="./green-h.png" border="0" width="4" height="15" alt="14" title="14" /><img src="./yellow-h.png" border="0" width="11" height="15" alt="32" title="32" /><img src="./red-h.png" border="0" width="21" height="15" alt="62" title="62" /></td><td style="background-color: #c3c3d4" nowrap="nowrap"><img src="./blue-h.png" border="0" width="1" height="15" align="middle" alt="" /><img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="4" height="15" align="middle" alt="" /><img src="./red-h.png" border="0" width="7" height="15" align="middle" alt="" />&nbsp;587</td><td style="background-color: #c3c3d4">5.2</td><td style="background-color: #c3c3d4">27.5</td><td style="background-color: #c3c3d4">today</td><td style="background-color: #c3c3d4">"la de mi anterior laburo encima tenía una pinta de trolita"</td>
+<td style="background-color: #c4c4d3"><span>JohnFeerx</span></td><td style="background-color: #c4c4d3" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="6" height="15" align="middle" alt="31" title="31" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="1" height="15" align="middle" alt="7" title="7" />&nbsp;42</td><td style="background-color: #c4c4d3"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="3" height="15" alt="4" title="4" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="29" height="15" alt="31" title="31" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="6" height="15" alt="7" title="7" /></td><td style="background-color: #c4c4d3" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="3" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="15" height="15" align="middle" alt="" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="3" height="15" align="middle" alt="" />&nbsp;715</td><td style="background-color: #c4c4d3">17.0</td><td style="background-color: #c4c4d3">91.3</td><td style="background-color: #c4c4d3">today</td><td style="background-color: #c4c4d3">"Buenas que quilombito hacer un FTP en windows 10 lo pude dejar..."</td>
 </tr>
 <tr><td class="rankc" align="left">6</td>
-<td style="background-color: #c4c4d2"><span>Voyeur</span></td><td style="background-color: #c4c4d2" nowrap="nowrap"><img src="./green-h.png" border="0" width="5" height="15" align="middle" alt="32" title="32" /><img src="./yellow-h.png" border="0" width="5" height="15" align="middle" alt="32" title="32" />&nbsp;64</td><td style="background-color: #c4c4d2"><img src="./green-h.png" border="0" width="20" height="15" alt="32" title="32" /><img src="./yellow-h.png" border="0" width="20" height="15" alt="32" title="32" /></td><td style="background-color: #c4c4d2" nowrap="nowrap"><img src="./green-h.png" border="0" width="4" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="4" height="15" align="middle" alt="" />&nbsp;368</td><td style="background-color: #c4c4d2">5.8</td><td style="background-color: #c4c4d2">32.1</td><td style="background-color: #c4c4d2">today</td><td style="background-color: #c4c4d2">"una VPN contra la censura en Internet"</td>
+<td style="background-color: #c6c6d1"><span>ssf</span></td><td style="background-color: #c6c6d1" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="3" height="15" align="middle" alt="17" title="17" />&nbsp;19</td><td style="background-color: #c6c6d1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="4" height="15" alt="2" title="2" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="35" height="15" alt="17" title="17" /></td><td style="background-color: #c6c6d1" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="3" height="15" align="middle" alt="" />&nbsp;118</td><td style="background-color: #c6c6d1">6.2</td><td style="background-color: #c6c6d1">37.4</td><td style="background-color: #c6c6d1">today</td><td style="background-color: #c6c6d1">"cómo fué ese trip?"</td>
 </tr>
 <tr><td class="rankc" align="left">7</td>
-<td style="background-color: #c6c6d1"><span>JohnFeerx</span></td><td style="background-color: #c6c6d1" nowrap="nowrap"><img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="6" title="6" /><img src="./yellow-h.png" border="0" width="5" height="15" align="middle" alt="34" title="34" /><img src="./red-h.png" border="0" width="1" height="15" align="middle" alt="10" title="10" />&nbsp;50</td><td style="background-color: #c6c6d1"><img src="./green-h.png" border="0" width="4" height="15" alt="6" title="6" /><img src="./yellow-h.png" border="0" width="27" height="15" alt="34" title="34" /><img src="./red-h.png" border="0" width="8" height="15" alt="10" title="10" /></td><td style="background-color: #c6c6d1" nowrap="nowrap"><img src="./green-h.png" border="0" width="3" height="15" align="middle" alt="" /><img src="./yellow-h.png" border="0" width="11" height="15" align="middle" alt="" /><img src="./red-h.png" border="0" width="4" height="15" align="middle" alt="" />&nbsp;826</td><td style="background-color: #c6c6d1">16.5</td><td style="background-color: #c6c6d1">87.1</td><td style="background-color: #c6c6d1">today</td><td style="background-color: #c6c6d1">"alguien quiere pensar en los niños"</td>
+<td style="background-color: #c8c8cf"><span>Voyeur</span></td><td style="background-color: #c8c8cf" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="2" height="15" align="middle" alt="13" title="13" />&nbsp;14</td><td style="background-color: #c8c8cf"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="2" height="15" alt="1" title="1" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="37" height="15" alt="13" title="13" /></td><td style="background-color: #c8c8cf" nowrap="nowrap"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="1" height="15" align="middle" alt="" />&nbsp;64</td><td style="background-color: #c8c8cf">4.6</td><td style="background-color: #c8c8cf">29.8</td><td style="background-color: #c8c8cf">today</td><td style="background-color: #c8c8cf">"Debian en VMware especificamente Loc-OS"</td>
 </tr>
 <tr><td class="rankc" align="left">8</td>
-<td style="background-color: #c8c8cf"><span>ssf-</span></td><td style="background-color: #c8c8cf" nowrap="nowrap"><img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="11" title="11" />&nbsp;11</td><td style="background-color: #c8c8cf"><img src="./green-h.png" border="0" width="40" height="15" alt="11" title="11" /></td><td style="background-color: #c8c8cf" nowrap="nowrap"><img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="" />&nbsp;50</td><td style="background-color: #c8c8cf">4.5</td><td style="background-color: #c8c8cf">24.8</td><td style="background-color: #c8c8cf">7 days ago</td><td style="background-color: #c8c8cf">"nunca miré qué onda eso, lo siguen dando?"</td>
+<td style="background-color: #cacacd"><span>***</span></td><td style="background-color: #cacacd" nowrap="nowrap">&nbsp;2</td><td style="background-color: #cacacd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="40" height="15" alt="2" title="2" /></td><td style="background-color: #cacacd" nowrap="nowrap">&nbsp;4</td><td style="background-color: #cacacd">2.0</td><td style="background-color: #cacacd">18.0</td><td style="background-color: #cacacd">2 days ago</td><td style="background-color: #cacacd">"Buffer Playback..."</td>
 </tr>
 <tr><td class="rankc" align="left">9</td>
-<td style="background-color: #cacacd"><span>Exidor</span></td><td style="background-color: #cacacd" nowrap="nowrap">&nbsp;7</td><td style="background-color: #cacacd"><img src="./green-h.png" border="0" width="17" height="15" alt="3" title="3" /><img src="./yellow-h.png" border="0" width="17" height="15" alt="3" title="3" /><img src="./red-h.png" border="0" width="5" height="15" alt="1" title="1" /></td><td style="background-color: #cacacd" nowrap="nowrap">&nbsp;53</td><td style="background-color: #cacacd">7.6</td><td style="background-color: #cacacd">42.0</td><td style="background-color: #cacacd">today</td><td style="background-color: #cacacd">"¿Qué tal, fold? Poca gente por acá."</td>
-</tr>
-<tr><td class="rankc" align="left">10</td>
-<td style="background-color: #cccccc"><span>[Kalisto]_</span></td><td style="background-color: #cccccc" nowrap="nowrap">&nbsp;2</td><td style="background-color: #cccccc"><img src="./yellow-h.png" border="0" width="40" height="15" alt="2" title="2" /></td><td style="background-color: #cccccc" nowrap="nowrap">&nbsp;4</td><td style="background-color: #cccccc">2.0</td><td style="background-color: #cccccc">10.5</td><td style="background-color: #cccccc">8 days ago</td><td style="background-color: #cccccc">"dos kalistos"</td>
+<td style="background-color: #cccccc"><span>Exidor</span></td><td style="background-color: #cccccc" nowrap="nowrap">&nbsp;1</td><td style="background-color: #cccccc"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="40" height="15" alt="1" title="1" /></td><td style="background-color: #cccccc" nowrap="nowrap">&nbsp;7</td><td style="background-color: #cccccc">7.0</td><td style="background-color: #cccccc">38.0</td><td style="background-color: #cccccc">today</td><td style="background-color: #cccccc">"¿Qué tal, fold? Poca gente por acá."</td>
 </tr>
 </table><br />
-<br /><b><i>These didn't make it to the top:</i></b><table><tr>
-<td class="rankc10"><span>CEP-stafe (1)</span></td>
-<td class="rankc10"><span>juan_ (1)</span></td>
-</tr></table>
    <br />
    <table width="1030" cellpadding="1" cellspacing="0" border="0">
     <tr>
@@ -362,148 +406,126 @@ Statistics generated on  Tuesday 16 August 2022 - 22:00:03
 <td class="tdtop"><b>18-23</b></td>
 </tr>
 <tr><td class="hirankc">1</td>
+<td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./blue-h.png" border="0" width="3" height="15" align="middle" alt="" />
-CEP - 15
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="4" height="15" align="middle" alt="" />
+qadlo - 14
 </td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="15" height="15" align="middle" alt="" />
-qadlo - 70
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="100" height="15" align="middle" alt="" />
+CEP - 350
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="100" height="15" align="middle" alt="" />
-CEP - 454
-</td>
-<td class="hicell">
-<img src="./red-h.png" border="0" width="33" height="15" align="middle" alt="" />
-qadlo - 150
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="31" height="15" align="middle" alt="" />
+CEP - 109
 </td>
 </tr>
 <tr><td class="rankc">2</td>
+<td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./blue-h.png" border="0" width="1" height="15" align="middle" alt="" />
-fold - 5
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="2" height="15" align="middle" alt="" />
+fold - 8
 </td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="11" height="15" align="middle" alt="" />
-[Kalisto] - 51
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="37" height="15" align="middle" alt="" />
+[Kalisto] - 130
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="62" height="15" align="middle" alt="" />
-qadlo - 286
-</td>
-<td class="hicell">
-<img src="./red-h.png" border="0" width="27" height="15" align="middle" alt="" />
-CEP - 126
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="25" height="15" align="middle" alt="" />
+qadlo - 90
 </td>
 </tr>
 <tr><td class="rankc">3</td>
+<td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./blue-h.png" border="0" width="1" height="15" align="middle" alt="" />
-qadlo - 3
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="" />
+[Kalisto] - 5
 </td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="7" height="15" align="middle" alt="" />
-Voyeur - 32
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="33" height="15" align="middle" alt="" />
+qadlo - 118
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="37" height="15" align="middle" alt="" />
-[Kalisto] - 168
-</td>
-<td class="hicell">
-<img src="./red-h.png" border="0" width="20" height="15" align="middle" alt="" />
-[Kalisto] - 94
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="19" height="15" align="middle" alt="" />
+[Kalisto] - 68
 </td>
 </tr>
 <tr><td class="rankc">4</td>
+<td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./blue-h.png" border="0" width="1" height="15" align="middle" alt="" />
-[Kalisto] - 1
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="" />
+JohnFeerx - 4
 </td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="3" height="15" align="middle" alt="" />
-fold - 14
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="8" height="15" align="middle" alt="" />
+JohnFeerx - 31
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="31" height="15" align="middle" alt="" />
-ssf - 144
-</td>
-<td class="hicell">
-<img src="./red-h.png" border="0" width="13" height="15" align="middle" alt="" />
-fold - 62
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="11" height="15" align="middle" alt="" />
+fold - 39
 </td>
 </tr>
 <tr><td class="rankc">5</td>
 <td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="2" height="15" align="middle" alt="" />
-ssf- - 11
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="" />
+ssf - 2
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="7" height="15" align="middle" alt="" />
-JohnFeerx - 34
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="5" height="15" align="middle" alt="" />
+fold - 20
 </td>
 <td class="hicell">
-<img src="./red-h.png" border="0" width="2" height="15" align="middle" alt="" />
-JohnFeerx - 10
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="2" height="15" align="middle" alt="" />
+JohnFeerx - 7
 </td>
 </tr>
 <tr><td class="rankc">6</td>
 <td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="" />
-JohnFeerx - 6
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="green-h" border="0" width="1" height="15" align="middle" alt="" />
+Voyeur - 1
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="7" height="15" align="middle" alt="" />
-fold - 32
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="4" height="15" align="middle" alt="" />
+ssf - 17
 </td>
 <td class="hicell">
-<img src="./red-h.png" border="0" width="1" height="15" align="middle" alt="" />
-Exidor - 1
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="1" height="15" align="middle" alt="" />
+*** - 2
 </td>
 </tr>
 <tr><td class="rankc">7</td>
 <td class="hicell">&nbsp;</td>
-<td class="hicell">
-<img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="" />
-ssf - 5
-</td>
-<td class="hicell">
-<img src="./yellow-h.png" border="0" width="7" height="15" align="middle" alt="" />
-Voyeur - 32
-</td>
-<td class="hicell">&nbsp;</td>
-</tr>
-<tr><td class="rankc">8</td>
 <td class="hicell">&nbsp;</td>
 <td class="hicell">
-<img src="./green-h.png" border="0" width="1" height="15" align="middle" alt="" />
-Exidor - 3
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="yellow-h" border="0" width="3" height="15" align="middle" alt="" />
+Voyeur - 13
 </td>
 <td class="hicell">
-<img src="./yellow-h.png" border="0" width="1" height="15" align="middle" alt="" />
-Exidor - 3
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
+" id="red-h" border="0" width="1" height="15" align="middle" alt="" />
+Exidor - 1
 </td>
-<td class="hicell">&nbsp;</td>
-</tr>
-<tr><td class="rankc">9</td>
-<td class="hicell">&nbsp;</td>
-<td class="hicell">&nbsp;</td>
-<td class="hicell">
-<img src="./yellow-h.png" border="0" width="1" height="15" align="middle" alt="" />
-[Kalisto]_ - 2
-</td>
-<td class="hicell">&nbsp;</td>
-</tr>
-<tr><td class="rankc">10</td>
-<td class="hicell">&nbsp;</td>
-<td class="hicell">&nbsp;</td>
-<td class="hicell">
-<img src="./yellow-h.png" border="0" width="1" height="15" align="middle" alt="" />
-CEP-stafe - 1
-</td>
-<td class="hicell">&nbsp;</td>
 </tr>
 </table>
    <br />
@@ -520,31 +542,30 @@ CEP-stafe - 1
    </table>
 
 <table width="1034">
-<tr><td class="hicell">Is <b>ssf</b> stupid or just asking too many questions?  18.8% lines contained a question!
-<br /><span class="small"><b>Voyeur</b> didn't know that much either.  15.6% of his/her lines were questions.</span>
+<tr><td class="hicell">Is <b>[Kalisto]</b> stupid or just asking too many questions?  15.3% lines contained a question!
+<br /><span class="small"><b>qadlo</b> didn't know that much either.  14.9% of his/her lines were questions.</span>
 </td></tr>
-<tr><td class="hicell">The loudest one was <b>ssf</b>, who yelled 8.1% of the time!
-<br /><span class="small">Another <i>old yeller</i> was <b>fold</b>, who shouted 3.5% of the time!</span>
+<tr><td class="hicell">The loudest one was <b>fold</b>, who yelled 6.0% of the time!
+<br /><span class="small">Another <i>old yeller</i> was <b>[Kalisto]</b>, who shouted 1.0% of the time!</span>
 </td></tr>
-<tr><td class="hicell">It seems that <b>qadlo</b>'s shift-key is hanging:  3.7% of the time he/she wrote UPPERCASE.<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;qadlo&gt; MENDIIIIA</span>
-<br /><span class="small"><b>JohnFeerx</b> just forgot to deactivate his/her Caps-Lock.  He/She wrote UPPERCASE 2.0% of the time.</span>
+<tr><td class="hicell">It seems that <b>qadlo</b>'s shift-key is hanging:  3.6% of the time he/she wrote UPPERCASE.<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;qadlo&gt; NO LE DEN MAS LETRA</span>
+<br /><span class="small"><b>[Kalisto]</b> just forgot to deactivate his/her Caps-Lock.  He/She wrote UPPERCASE 2.0% of the time.</span>
 </td></tr>
 <tr><td class="hicell">Nobody beat anyone up.  Everybody was friendly.</td></tr>
-<tr><td class="hicell"><b>JohnFeerx</b> brings happiness to the world.  2.0% lines contained smiling faces.  :)
-<br /><span class="small"><b>ssf</b> isn't a sad person either, smiling 2.0% of the time.</span>
+<tr><td class="hicell"><b>JohnFeerx</b> brings happiness to the world.  2.4% lines contained smiling faces.  :)
 </td></tr>
-<tr><td class="hicell"><b>qadlo</b> seems to be sad at the moment:  0.6% lines contained sad faces.  :(
-<br /><span class="small"><b>[Kalisto]</b> is also a sad person, crying 0.6% of the time.</span>
+<tr><td class="hicell"><b>[Kalisto]</b> seems to be sad at the moment:  1.0% lines contained sad faces.  :(
+<br /><span class="small"><b>qadlo</b> is also a sad person, crying 0.5% of the time.</span>
 </td></tr>
-<tr><td class="hicell"><b>JohnFeerx</b> wrote the longest lines, averaging 87.1 letters per line.<br />
-<span class="small">#argentina average was 34.0 letters per line.</span></td></tr>
-<tr><td class="hicell"><b>fold</b> wrote the shortest lines, averaging 27.5 characters per line.<br />
-<span class="small"><b>[Kalisto]</b> was tight-lipped, too, averaging 30.1 characters.</span></td></tr>
-<tr><td class="hicell"><b>CEP</b> spoke a total of 4260 words!
-<br /><span class="small">CEP's faithful follower, <b>qadlo</b>, didn't speak so much: 2882 words.</span>
+<tr><td class="hicell"><b>JohnFeerx</b> wrote the longest lines, averaging 91.3 letters per line.<br />
+<span class="small">#argentina average was 37.0 letters per line.</span></td></tr>
+<tr><td class="hicell"><b>fold</b> wrote the shortest lines, averaging 29.1 characters per line.<br />
+<span class="small"><b>qadlo</b> was tight-lipped, too, averaging 31.7 characters.</span></td></tr>
+<tr><td class="hicell"><b>CEP</b> spoke a total of 3244 words!
+<br /><span class="small">CEP's faithful follower, <b>[Kalisto]</b>, didn't speak so much: 1358 words.</span>
 </td></tr>
-<tr><td class="hicell"><b>JohnFeerx</b> wrote an average of 16.52 words per line.
-<br /><span class="small">Channel average was 6.45 words per line.</span>
+<tr><td class="hicell"><b>JohnFeerx</b> wrote an average of 17.02 words per line.
+<br /><span class="small">Channel average was 6.99 words per line.</span>
 </td></tr>
 </table>
    <br />
@@ -565,54 +586,54 @@ CEP-stafe - 1
 <td class="tdtop"><b>Number of Uses</b></td>
 <td class="tdtop"><b>Last Used by</b></td></tr>
 <tr><td class="hirankc">1</td>
-<td class="hicell">tiene</td>
-<td class="hicell">44</td>
-<td class="hicell">qadlo</td>
+<td class="hicell">pesos</td>
+<td class="hicell">34</td>
+<td class="hicell">CEP</td>
 </tr>
 <tr><td class="rankc">2</td>
-<td class="hicell">cuando</td>
-<td class="hicell">38</td>
-<td class="hicell">qadlo</td>
+<td class="hicell">dolares</td>
+<td class="hicell">33</td>
+<td class="hicell">CEP</td>
 </tr>
 <tr><td class="rankc">3</td>
-<td class="hicell">Ahora</td>
-<td class="hicell">36</td>
-<td class="hicell">CEP</td>
+<td class="hicell">cuando</td>
+<td class="hicell">28</td>
+<td class="hicell">qadlo</td>
 </tr>
 <tr><td class="rankc">4</td>
-<td class="hicell">pesos</td>
-<td class="hicell">36</td>
-<td class="hicell">CEP</td>
+<td class="hicell">tiene</td>
+<td class="hicell">28</td>
+<td class="hicell">qadlo</td>
 </tr>
 <tr><td class="rankc">5</td>
-<td class="hicell">porque</td>
-<td class="hicell">34</td>
+<td class="hicell">Ahora</td>
+<td class="hicell">25</td>
 <td class="hicell">CEP</td>
 </tr>
 <tr><td class="rankc">6</td>
-<td class="hicell">dolares</td>
-<td class="hicell">34</td>
+<td class="hicell">porque</td>
+<td class="hicell">24</td>
 <td class="hicell">CEP</td>
 </tr>
 <tr><td class="rankc">7</td>
-<td class="hicell">Estás</td>
-<td class="hicell">29</td>
+<td class="hicell">estás</td>
+<td class="hicell">19</td>
 <td class="hicell">qadlo</td>
 </tr>
 <tr><td class="rankc">8</td>
-<td class="hicell">TODOS</td>
-<td class="hicell">26</td>
+<td class="hicell">todos</td>
+<td class="hicell">18</td>
 <td class="hicell">JohnFeerx</td>
 </tr>
 <tr><td class="rankc">9</td>
-<td class="hicell">gente</td>
-<td class="hicell">24</td>
-<td class="hicell">Exidor</td>
+<td class="hicell">cobro</td>
+<td class="hicell">17</td>
+<td class="hicell">CEP</td>
 </tr>
 <tr><td class="rankc">10</td>
-<td class="hicell">tengo</td>
-<td class="hicell">24</td>
-<td class="hicell">fold</td>
+<td class="hicell">dolar</td>
+<td class="hicell">17</td>
+<td class="hicell">CEP</td>
 </tr>
 </table>
    <br />
@@ -634,27 +655,27 @@ CEP-stafe - 1
 <td class="tdtop"><b>Last Used by</b></td></tr>
 <tr><td class="hirankc">1</td>
 <td class="hicell">CEP</td>
-<td class="hicell">50</td>
+<td class="hicell">39</td>
 <td class="hicell">qadlo</td>
 </tr>
 <tr><td class="rankc">2</td>
 <td class="hicell">qadlo</td>
-<td class="hicell">36</td>
+<td class="hicell">21</td>
 <td class="hicell">fold</td>
 </tr>
 <tr><td class="rankc">3</td>
-<td class="hicell">fold</td>
-<td class="hicell">35</td>
-<td class="hicell">Exidor</td>
+<td class="hicell">[Kalisto]</td>
+<td class="hicell">15</td>
+<td class="hicell">qadlo</td>
 </tr>
 <tr><td class="rankc">4</td>
-<td class="hicell">[Kalisto]</td>
-<td class="hicell">22</td>
-<td class="hicell">qadlo</td>
+<td class="hicell">fold</td>
+<td class="hicell">14</td>
+<td class="hicell">Exidor</td>
 </tr>
 <tr><td class="rankc">5</td>
 <td class="hicell">JohnFeerx</td>
-<td class="hicell">21</td>
+<td class="hicell">14</td>
 <td class="hicell">qadlo</td>
 </tr>
 </table>
@@ -677,28 +698,13 @@ CEP-stafe - 1
 <td class="tdtop"><b>Last Used by</b></td></tr>
 <tr><td class="hirankc">1</td>
 <td class="hicell">:(</td>
-<td class="hicell">4</td>
+<td class="hicell">3</td>
 <td class="hicell">[Kalisto]</td>
 </tr>
 <tr><td class="rankc">2</td>
-<td class="hicell">:)</td>
-<td class="hicell">3</td>
-<td class="hicell">ssf</td>
-</tr>
-<tr><td class="rankc">3</td>
-<td class="hicell">:D</td>
-<td class="hicell">3</td>
-<td class="hicell">ssf</td>
-</tr>
-<tr><td class="rankc">4</td>
 <td class="hicell">:p</td>
 <td class="hicell">1</td>
 <td class="hicell">JohnFeerx</td>
-</tr>
-<tr><td class="rankc">5</td>
-<td class="hicell">:/</td>
-<td class="hicell">1</td>
-<td class="hicell">qadlo</td>
 </tr>
 </table>
    <br />
@@ -731,12 +737,6 @@ CEP-stafe - 1
 <td class="hicell">qadlo</td>
 <td class="hicell"></td>
 </tr>
-<tr><td class="rankc">3</td>
-<td class="hicell">fold</td>
-<td class="hicell">1</td>
-<td class="hicell">qadlo</td>
-<td class="hicell"></td>
-</tr>
 </table>
    <br />
    <table width="1030" cellpadding="1" cellspacing="0" border="0">
@@ -756,54 +756,54 @@ CEP-stafe - 1
 <td class="tdtop"><b>Number of Uses</b></td>
 <td class="tdtop"><b>Last Used by</b></td></tr>
 <tr><td class="hirankc">1</td>
-<td class="hicell"><a href="https://qadlo.github.io/ircstats/">https://qadlo.github.io/ircstats/</a></td>
-<td class="hicell">2</td>
-<td class="hicell">qadlo</td>
-</tr>
-<tr><td class="rankc">2</td>
 <td class="hicell"><a href="https://blog.segu-info.com.ar/2022/08/poder-judicial-de-cordoba-ar-afectado.html">https://blog.segu-info.com.ar/2022/08/poder-judicial-de-cord</a></td>
 <td class="hicell">2</td>
 <td class="hicell">qadlo</td>
 </tr>
-<tr><td class="rankc">3</td>
-<td class="hicell"><a href="https://mobile.twitter.com/MChatzona/status/1559546020450762755">https://mobile.twitter.com/MChatzona/status/1559546020450762</a></td>
-<td class="hicell">1</td>
-<td class="hicell">Voyeur</td>
-</tr>
-<tr><td class="rankc">4</td>
-<td class="hicell"><a href="https://man.openbsd.org/fw_update.8">https://man.openbsd.org/fw_update.8</a></td>
-<td class="hicell">1</td>
-<td class="hicell">ssf</td>
-</tr>
-<tr><td class="rankc">5</td>
-<td class="hicell"><a href="https://www.youtube.com/watch?v=MEb2CecR11I">https://www.youtube.com/watch?v=MEb2CecR11I</a></td>
-<td class="hicell">1</td>
-<td class="hicell">[Kalisto]</td>
-</tr>
-<tr><td class="rankc">6</td>
-<td class="hicell"><a href="https://ar.pinterest.com/pin/561401909775799015/">https://ar.pinterest.com/pin/561401909775799015/</a></td>
-<td class="hicell">1</td>
-<td class="hicell">[Kalisto]</td>
-</tr>
-<tr><td class="rankc">7</td>
+<tr><td class="rankc">2</td>
 <td class="hicell"><a href="https://www.youtube.com/watch?v=VsWZu_boOKU">https://www.youtube.com/watch?v=VsWZu_boOKU</a></td>
 <td class="hicell">1</td>
 <td class="hicell">[Kalisto]</td>
 </tr>
+<tr><td class="rankc">3</td>
+<td class="hicell"><a href="ftp://0000.0000.0.0">ftp://0000.0000.0.0</a></td>
+<td class="hicell">1</td>
+<td class="hicell">JohnFeerx</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell"><a href="https://www.youtube.com/watch?v=MEb2CecR11I">https://www.youtube.com/watch?v=MEb2CecR11I</a></td>
+<td class="hicell">1</td>
+<td class="hicell">[Kalisto]</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell"><a href="https://man.openbsd.org/fw_update.8">https://man.openbsd.org/fw_update.8</a></td>
+<td class="hicell">1</td>
+<td class="hicell">ssf</td>
+</tr>
+<tr><td class="rankc">6</td>
+<td class="hicell"><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/27436/norma.htm">http://servicios.infoleg.gob.ar/infolegInternet/anexos/25000</a></td>
+<td class="hicell">1</td>
+<td class="hicell">fold</td>
+</tr>
+<tr><td class="rankc">7</td>
+<td class="hicell"><a href="https://www.dw.com/es/investigan-a-macri-por-firmar-con-el-fmi-sin-aprobaci%25C3%25B3n-del-congreso/a-45376267">https://www.dw.com/es/investigan-a-macri-por-firmar-con-el-f</a></td>
+<td class="hicell">1</td>
+<td class="hicell">CEP</td>
+</tr>
 <tr><td class="rankc">8</td>
-<td class="hicell"><a href="https://chathispano.com/soporte">https://chathispano.com/soporte</a></td>
+<td class="hicell"><a href="https://mobile.twitter.com/MChatzona/status/1559546020450762755">https://mobile.twitter.com/MChatzona/status/1559546020450762</a></td>
 <td class="hicell">1</td>
 <td class="hicell">Voyeur</td>
 </tr>
 <tr><td class="rankc">9</td>
-<td class="hicell"><a href="https://sourceforge.net/projects/miniweb/">https://sourceforge.net/projects/miniweb/</a></td>
+<td class="hicell"><a href="https://www.elconfidencial.com/tecnologia/novaceno/2022-08-16/rusia-lanzacohete-perro-robot-antitanque_3476574/?utm_source=dlvr.it%26utm_medium=facebook">https://www.elconfidencial.com/tecnologia/novaceno/2022-08-1</a></td>
 <td class="hicell">1</td>
 <td class="hicell">JohnFeerx</td>
 </tr>
 <tr><td class="rankc">10</td>
-<td class="hicell"><a href="https://www.oracle.com/es/cloud/free/">https://www.oracle.com/es/cloud/free/</a></td>
+<td class="hicell"><a href="https://www.youtube.com/watch?v=dvlgoeSe_1Q">https://www.youtube.com/watch?v=dvlgoeSe_1Q</a></td>
 <td class="hicell">1</td>
-<td class="hicell">[Kalisto]</td>
+<td class="hicell">qadlo</td>
 </tr>
 </table>
    <br />
@@ -821,17 +821,15 @@ CEP-stafe - 1
 
 <table width="1034">
 <tr><td class="hicell">Nice opers here, no one got kicked!</td></tr>
-<tr><td class="hicell"><b>ChanServ</b> donated 1 ops in the channel...
+<tr><td class="hicell">Strange, no op was given on #argentina!</td></tr>
+<tr><td class="hicell">Wow, no op was taken on #argentina!</td></tr>
+<tr><td class="hicell"><b>[Kalisto]</b> always lets us know what he/she's doing: 2 actions!<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* [Kalisto] va al deposito (?)</span>
+<br /><span class="small">Also, <b>qadlo</b> tells us what's up with 2 actions.</span>
 </td></tr>
-<tr><td class="hicell"><b>ChanServ</b> is the channel sheriff with 1 deops.
+<tr><td class="hicell"><b>CEP</b> talks to him/herself a lot.  He/She wrote over 5 lines in a row 12 times!
+<br /><span class="small">Another lonely one was <b>[Kalisto]</b>, who managed to hit 2 times.</span>
 </td></tr>
-<tr><td class="hicell"><b>qadlo</b> always lets us know what he/she's doing: 4 actions!<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* qadlo likes his own comment</span>
-<br /><span class="small">Also, <b>ssf</b> tells us what's up with 2 actions.</span>
-</td></tr>
-<tr><td class="hicell"><b>CEP</b> talks to him/herself a lot.  He/She wrote over 5 lines in a row 16 times!
-<br /><span class="small">Another lonely one was <b>qadlo</b>, who managed to hit 6 times.</span>
-</td></tr>
-<tr><td class="hicell"><b>JohnFeerx</b> couldn't decide whether to stay or go.  36 joins during this reporting period!</td></tr>
+<tr><td class="hicell"><b>Exidor</b> couldn't decide whether to stay or go.  3 joins during this reporting period!</td></tr>
 <tr><td class="hicell">Nobody is foul-mouthed in #argentina!  Get out much?</td></tr>
 </table>
    <br />
@@ -848,16 +846,13 @@ CEP-stafe - 1
    </table>
 
 <table width="1034">
-<tr><td class="hicell"><i> Argentina en Libera - Stats en <a href="https://qadlo.github.io/ircstats/" target="_blank" title="Open in new window: https://qadlo.github.io/ircstats/">https://qadlo.github.io/ircstats/</a></i></td>
-<td class="hicell"><b>5 days ago at 23:5 by [Kalisto]</b></td></tr>
-<tr><td align="center" colspan="2" class="asmall">The topic was set 1 times.</td></tr>
+<tr><td class="hicell">A topic was never set on this channel.</td></tr>
 </table>
-Total number of lines: 2068.<br /><br />
-<span class="small">
-Stats generated by <a href="http://pisg.sourceforge.net/" title="Go to the pisg homepage" class="background">pisg</a> v0.73<br />
-pisg by <a href="http://mbrix.dk/" title="Go to the authors homepage" class="background">Morten Brix Pedersen</a> and others<br />
-Stats generated in 00 hours 00 minutes and 01 seconds
-</span>
+<div id="totallines">Total number of lines: 1062.</div>
+<div id="footer" class="small">
+	<div id="stats_gen">Stats generated by <a href="https://pisg.github.io/" title="Go to the pisg homepage" class="background">pisg</a> v0.80-preview2</div>
+	<div id="stats_text">Stats generated in 00 hours 00 minutes and 01 seconds</div>
+</div>
 
 <!-- NFiles = "0"; Format = "irssi"; Lang = "EN"; LangFile = "/usr/share/pisg/lang.txt"; Charset = "utf-8"; LogCharset = ""; LogCharsetFallback = ""; LogPrefix = ""; LogSuffix = ""; NickTracking = "0"; TimeOffset = "+0" -->
 </div>
